@@ -1,0 +1,40 @@
+.callback__download {
+  width: 50%;
+  background: url("./../../../images/callback/callback.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 35px 65px 42px 98px;
+}
+
+@media screen and (max-width: 1440px){
+  .callback__download {
+    padding: 30px 65px 30px 98px;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .callback__download {
+    padding: 35px 65px 30px 20px;
+  }
+}
+
+@media screen and (max-width: 960px){
+  .callback__download {
+    width: 100%;
+    padding: 30px 25px 30px 30px;
+  }
+}
+
+@media screen and (max-width: 860px){
+  .callback__download {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px){
+  .callback__download {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+  }
+}

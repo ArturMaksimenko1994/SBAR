@@ -1,0 +1,15 @@
+.business {
+  background: url("./../../images/business/business.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 32px 0;
+  display: none;
+}
+
+
+@media screen and (max-width: 560px){
+  .business {
+    display: block;
+  }
+}

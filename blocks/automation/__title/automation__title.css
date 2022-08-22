@@ -1,0 +1,26 @@
+.automation__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 1440px){
+  .automation__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .automation__title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+

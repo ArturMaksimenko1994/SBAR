@@ -1,0 +1,42 @@
+.help__title {
+  max-width: 500px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1024px){
+  .help__title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .help__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}
+
+
+@media screen and (max-width: 620px){
+  .help__title {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .help__title br{
+    display: none;
+  }
+  .help__title {
+    text-align: center;
+    max-width: 320px;
+  }
+}

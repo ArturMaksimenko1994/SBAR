@@ -1,0 +1,26 @@
+.decision__text {
+  margin: 0;
+}
+
+.decision__text:nth-child(2) {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 860px) {
+  .decision__text:nth-child(2) {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .decision__text {
+    padding-top: 20px;
+  }
+  .decision__text:nth-child(2) {
+    margin-top: 20px;
+  }
+  .decision__text_top {
+    border-top: 1px solid #FFFFFF;
+  }
+}
+

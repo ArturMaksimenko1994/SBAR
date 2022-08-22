@@ -1,0 +1,25 @@
+.work__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 340px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1024px){
+  .work__title {
+    font-size: 26px;
+    line-height: 35px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .work__title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+}

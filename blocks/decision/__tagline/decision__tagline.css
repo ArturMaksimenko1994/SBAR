@@ -1,0 +1,26 @@
+.decision__tagline {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FDFCFC;
+  margin: 0;
+  margin-top: 20px;
+}
+
+
+
+@media screen and (max-width: 1440px){
+  .decision__tagline {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .decision__tagline {
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 12px;
+  }
+}

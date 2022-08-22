@@ -1,0 +1,11 @@
+.description__numbers {
+    max-width: 570px;
+    width: 100%;
+}
+
+@media screen and (max-width: 540px){
+  .description__numbers {
+    max-width: 260px;
+    text-align: center;
+  }
+}

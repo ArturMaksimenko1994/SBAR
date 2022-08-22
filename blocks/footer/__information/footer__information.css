@@ -1,0 +1,17 @@
+.footer__information {
+  display: flex;
+  justify-content: end;
+  max-width: 50%;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 540px){
+  .footer__information {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 8px;
+  }
+}

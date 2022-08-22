@@ -1,0 +1,13 @@
+.evidence__img {
+    width: 38px;
+    height: 42px;
+    margin-bottom: 35px;
+}
+
+@media screen and (max-width: 1440px){
+  .evidence__img {
+    width: 28px;
+    height: 30px;
+    margin-bottom: 25px;
+  }
+}

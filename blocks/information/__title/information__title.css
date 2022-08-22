@@ -1,0 +1,50 @@
+.information__title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  max-width: 286px;
+  margin: 0;
+  margin-top: 20px;
+
+}
+
+
+.information__title::after {
+  display: block;
+  content: "";
+  width: 180px;
+  height: 2px;
+  margin-top: 18px;
+  background: #000000;
+}
+
+
+@media screen and (max-width: 1440px){
+  .information__title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .information__title::after {
+    margin-top: 14px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .information__title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .information__title::after {
+    margin-top: 9px;
+    width: auto;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .information__title {
+  display: none;
+  }
+}

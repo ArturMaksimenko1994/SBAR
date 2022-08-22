@@ -1,0 +1,17 @@
+.join__exit {
+  width: 17px;
+  height: 17px;
+  position: absolute;
+  right: 22px;
+  top: 52px;
+  transition: .3s;
+}
+
+.join__exit:hover {
+  transform: rotate(90deg);
+}
+@media screen and (max-width: 1440px){
+  .join__exit {
+    top: 49px;
+  }
+}

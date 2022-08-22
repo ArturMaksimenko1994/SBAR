@@ -1,0 +1,13 @@
+.join__quit {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 20px;
+  right: 15px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.join__quit:hover {
+  transform: rotate(90deg);
+}

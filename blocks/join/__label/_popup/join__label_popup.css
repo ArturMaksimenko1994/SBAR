@@ -1,0 +1,6 @@
+.join__label_popup{
+  width: 100%;
+}
+.join__label_popup:first-child {
+  margin-bottom: 20px;
+}

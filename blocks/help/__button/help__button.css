@@ -1,0 +1,22 @@
+.help__button  {
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .help__button {
+    margin-top: 40px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .help__button {
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+  }
+}

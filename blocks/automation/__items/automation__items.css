@@ -1,0 +1,33 @@
+.automation__items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-width: 1155px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 53px 0;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+@media screen and (max-width: 1440px){
+  .automation__items {
+    padding: 53px 96px 53px 96px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .automation__items {
+    padding: 38px 66px 38px 66px;
+  }
+}
+
+
+@media screen and (max-width: 590px){
+  .automation__items {
+    padding: 25px 20px 25px 20px;
+    flex-direction: column;
+  }
+}

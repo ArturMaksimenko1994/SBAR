@@ -1,0 +1,27 @@
+.developments__article {
+  margin: 0;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 31px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .developments__article {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 22px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .developments__article {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

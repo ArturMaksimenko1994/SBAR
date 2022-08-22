@@ -1,0 +1,19 @@
+.decision__earlier_mobile_none {
+  display: none;
+}
+
+
+@media screen and (max-width: 860px) {
+  .decision__done_mobile_none {
+    display: none;
+  }
+
+  .decision__done_mobile_activ {
+    display: block;
+    width: 100%;
+    padding: 0;
+  }
+}
+
+
+

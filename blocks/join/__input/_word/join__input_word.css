@@ -1,0 +1,19 @@
+.join__input_word {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  padding: 12px 12px 12px 55px;
+}
+
+.join__input_word:not(:placeholder-shown) {
+  color:#650675;
+}
+
+
+@media screen and (max-width: 1440px){
+  .join__input_word {
+    padding: 8px  12px 8px 55px;
+  }
+}

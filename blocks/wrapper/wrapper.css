@@ -1,0 +1,34 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width:960px) {
+  .callback__download {
+    order: 2;
+    width: 100%;
+    display: block !important;
+  }
+
+  .information {
+    order: 1;
+  }
+
+
+  .process {
+    order: 3;
+  }
+
+
+}
+
+@media (max-width:540px) {
+  .callback__download {
+    order: 1;
+  }
+
+  .information {
+    order: 2;
+  }
+
+}

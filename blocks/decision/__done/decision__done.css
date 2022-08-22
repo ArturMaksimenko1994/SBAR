@@ -1,0 +1,32 @@
+.decision__done {
+  padding: 20px 0 0 56px;
+  width: 50%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1440px) {
+  .decision__done{
+    padding: 20px 0 0 40px;
+  }
+}
+
+
+@media screen and (max-width: 860px) {
+  .decision__done{
+    padding: 20px 0 0 25px;
+  }
+}
+
+
+@media screen and (max-width: 540px) {
+  .decision__done {
+    padding: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+}

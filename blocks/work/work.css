@@ -1,0 +1,10 @@
+.work {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 560px){
+  .work {
+    display: none;
+  }
+}

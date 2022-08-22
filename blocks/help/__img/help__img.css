@@ -1,0 +1,38 @@
+.help__img {
+  background: url("./../../../images/help/help.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 539px;
+  width: 100%;
+  height: 320px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .help__img {
+    max-width: 434px;
+    height: 250px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .help__img {
+    max-width: 265px;
+    height: 155px;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .help__img {
+    max-width: 214px;
+    height: 122px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .help__img {
+    margin-top: 40px;
+  }
+}

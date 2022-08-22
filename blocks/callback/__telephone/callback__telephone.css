@@ -1,0 +1,37 @@
+.callback__telephone {
+  width: 50%;
+  padding: 35px 20px 42px 98px;
+  background: #650675;
+}
+
+
+@media screen and (max-width: 1440px){
+  .callback__telephone {
+    padding: 30px 20px 42px 50px;
+  }
+}
+
+
+@media screen and (max-width: 960px){
+  .callback__telephone {
+    width: 100%;
+    padding: 30px 25px 30px 30px;
+    order: 4;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .callback__telephone {
+    width: 100%;
+    padding: 30px 25px 30px 65px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .callback__telephone {
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.decision__show {
+  position: absolute;
+  right: 50px;
+  bottom: 70px;
+  display: none;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 16px;
+  color: #FDFCFC;
+  transition: .3s;
+  text-align: center;
+}
+
+@media screen and (max-width: 860px) {
+  .decision__show {
+    font-size: 12px;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .decision__show {
+    font-size: 12px;
+    left: 50%;
+    transform: translate(-50%,0);
+  }
+}

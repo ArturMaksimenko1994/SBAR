@@ -1,0 +1,19 @@
+.tools__number {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 124.5%;
+  color: #650675;
+  margin: 0;
+  margin-bottom: 15px;
+  display: none;
+}
+
+.tools__number:nth-child(2n) {
+  color: #00A0E3;
+}
+
+@media screen and (max-width: 660px){
+  .tools__number {
+    display: block;
+  }
+}

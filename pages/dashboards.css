@@ -1,0 +1,57 @@
+/* ------------VENDOR------------ */
+@import url("./../vendor/fonts/fonts.css");
+/* ------------PAGE------------ */
+@import url("./../blocks/page/page.css");
+@import url("./../blocks/wrapper/wrapper.css");
+@import url("./../blocks/page/_hiden/page_hiden.css");
+@import url("./../blocks/title/title.css");
+@import url("./../blocks/title/_slim/title_slim.css");
+@import url("./../blocks/title/_left/title_left.css");
+@import url("./../blocks/subtitle/subtitle.css");
+@import url("./../blocks/button/button.css");
+@import url("./../blocks/button/_big/button_big.css");
+@import url("./../blocks/button/_white/button_white.css");
+@import url("./../blocks/button/_mini/button_mini.css");
+/* ------------HEADER------------ */
+@import url("./../blocks/header/header.css");
+@import url("./../blocks/header/__logo/header__logo.css");
+@import url("./../blocks/header/__menu/header__menu.css");
+@import url("./../blocks/header/__navigation/header__navigation.css");
+@import url("./../blocks/header/__items/header__items.css");
+@import url("./../blocks/header/__phone/header__phone.css");
+@import url("./../blocks/header/__phone-icon/header__phone-icon.css");
+@import url("./../blocks/header/__number/header__number.css");
+@import url("./../blocks/header/__link/header__link.css");
+@import url("./../blocks/header/__link/_current/header__link_current.css");
+@import url("./../blocks/header/__hamburger-menu/header__hamburger-menu.css");
+/* ------------AUTOMATION------------ */
+@import url("./../blocks/automation/automation.css");
+@import url("./../blocks/automation/__items/automation__items.css");
+@import url("./../blocks/automation/__item/automation__item.css");
+@import url("./../blocks/automation/__title/automation__title.css");
+@import url("./../blocks/automation/__text/automation__text.css");
+/* ------------DESCRIPTION------------ */
+@import url("./../blocks/description/description.css");
+@import url("./../blocks/description/__row/description__row.css");
+@import url("./../blocks/description/__numbers/description__numbers.css");
+@import url("./../blocks/description/__title/description__title.css");
+@import url("./../blocks/description/__animation/description__animation.css");
+@import url("./../blocks/description/__title/_color/description__title_color.css");
+@import url("./../blocks/description/__subtitle/description__subtitle.css");
+/* ---------- EXAMPLES ---------- */
+@import url("./../blocks/examples/examples.css");
+@import url("./../blocks/examples/__items/examples__items.css");
+@import url("./../blocks/examples/__item/examples__item.css");
+@import url("./../blocks/examples/__img/examples__img.css");
+@import url("./../blocks/examples/__title/examples__title.css");
+@import url("./../blocks/examples/__link/examples__link.css");
+/* ---------- FOOTER ---------- */
+@import url("./../blocks/footer/footer.css");
+@import url("./../blocks/footer/__row/footer__row.css");
+@import url("./../blocks/footer/__text/footer__text.css");
+@import url("./../blocks/footer/__text/_bottom/footer__text_bottom.css");
+@import url("./../blocks/footer/__information/footer__information.css");
+@import url("./../blocks/footer/__street/footer__street.css");
+@import url("./../blocks/footer/__telephone/footer__telephone.css");
+
+

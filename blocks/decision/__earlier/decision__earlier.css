@@ -1,0 +1,28 @@
+.decision__earlier {
+  border-right: 1px solid #FFFFFF;
+  padding: 20px 51px 20px 0;
+  width: 50%;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .decision__earlier {
+    padding: 20px 40px 20px 0;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .decision__earlier {
+    padding: 20px 25px 20px 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .decision__earlier {
+    padding: 0;
+    width: 100%;
+    border-right: 0px solid #FFFFFF;
+  }
+}
+
+

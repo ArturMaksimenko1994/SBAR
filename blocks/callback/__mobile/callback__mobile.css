@@ -1,0 +1,17 @@
+.callback__mobile {
+  background: #650675;
+  padding: 35px 60px 35px 60px;
+  display: none;
+  text-align: center;
+
+}
+
+
+@media screen and (max-width: 540px){
+  .callback__mobile {
+    display: block;
+  }
+}
+
+
+

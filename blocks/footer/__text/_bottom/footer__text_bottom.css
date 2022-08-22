@@ -1,0 +1,10 @@
+.footer__text_bottom {
+  position: inherit;
+}
+@media screen and (max-width: 540px){
+  .footer__text_bottom {
+    position: absolute;
+    bottom: -20px;
+    transform: translate(0, -50%)
+  }
+}

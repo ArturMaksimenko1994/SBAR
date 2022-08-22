@@ -1,0 +1,11 @@
+.join__fix {
+  position: absolute;
+  left: 22px;
+  top: 57px;
+}
+
+@media screen and (max-width: 1440px){
+  .join__fix {
+    top: 52px;
+  }
+}

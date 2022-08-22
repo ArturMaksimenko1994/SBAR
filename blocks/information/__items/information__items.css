@@ -1,0 +1,32 @@
+.information__items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 110px;
+  max-width: 1152px;
+
+}
+
+
+@media screen and (max-width: 1024px){
+  .information__items {
+    margin-top: 80px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .information__items {
+    margin-top: 50px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .information__items {
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,16 @@
+
+
+
+
+
+.join__file {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.join__file label{
+  width: 100%;
+}

@@ -1,0 +1,24 @@
+.header__phone-icon {
+  background: url("./../../../images/header/header-telephone.svg");
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-position: center;
+}
+
+
+@media screen and (max-width: 1024px){
+  .header__phone-icon {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+
+
+@media screen and (max-width: 860px){
+  .header__phone-icon {
+    width: 11px;
+    height: 11px;
+  }
+}

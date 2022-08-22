@@ -1,0 +1,27 @@
+.join__send {
+  padding: 90px 111px 68px 111px;
+  width: 100%;
+}
+
+
+@media screen and (max-width: 1440px){
+  .join__send {
+    padding: 45px 74px;
+  }
+}
+
+
+@media screen and (max-width: 960px){
+  .join__send {
+    padding: 45px 44px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .join__send {
+    max-width: 440px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}

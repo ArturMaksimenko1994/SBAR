@@ -1,0 +1,8 @@
+.page_hiden {
+  overflow: hidden;
+  position: relative;
+}
+
+.page_hiden::before {
+  opacity: .5;
+}

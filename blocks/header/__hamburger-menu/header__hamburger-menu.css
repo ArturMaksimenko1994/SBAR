@@ -1,0 +1,133 @@
+@keyframes fadein {
+  0% {
+      opacity: 0;
+
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
+
+
+.mobile div {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  height: 50px;
+  width: 32px;
+  z-index: 9999999;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+.mobile div span {
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 3px;
+  background-color: #000000;
+  transition-duration: .4s;
+}
+.mobile div span:nth-child(1) {
+  top: 14px;
+}
+.mobile div span:nth-child(2) {
+  top: 23px;
+}
+.mobile div span:nth-child(3) {
+  bottom: 14px;
+}
+.mobile div.active span:nth-child(1) {
+  transform: translate(-15px, 10px) rotate(-48deg);
+  background-color: #fff;
+  width: 26px;
+}
+.mobile div.active span:nth-child(2) {
+  transition-duration: 0s;
+  opacity: 0;
+
+}
+.mobile div.active span:nth-child(3) {
+  transform: translate(-15px, -9px) rotate(45deg);
+  background-color: #fff;
+  width: 26px;
+}
+.mobile nav {
+  display: block;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  height: 50px;
+  width: 50px;
+  z-index: -1;
+  transition-duration: .4s;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mobile nav.open {
+  background-color: #650675;
+  width: 200px;
+  height: 250px;
+  right: 0px;
+  top: 0px;
+  border-radius: 0;
+  z-index: 99;
+}
+
+
+.mobile nav ul {
+  display: none;
+}
+.mobile nav ul.show {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 99;
+}
+.mobile ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  width: 100%;
+  opacity: 0;
+  animation-name: fadein;
+  animation-duration: .2s;
+  animation-fill-mode: forwards;
+}
+.mobile ul li:not(:last-child) {
+  margin-bottom: 22px;
+}
+.mobile ul li a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  color: #fff;
+  width: 130px;
+  text-align: left;
+}
+
+.mobile ul li:nth-child(1){
+  padding: 15px 0 15px 0;
+  border-bottom: 1px solid #FFFFFF;
+  margin-top: 15px;
+}
+
+
+@media (min-width:540px){
+  .mobile {
+      display: none;
+  }
+}
+
+
+

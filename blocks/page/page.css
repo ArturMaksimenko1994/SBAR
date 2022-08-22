@@ -1,0 +1,28 @@
+
+.page {
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-width: 360px;
+}
+
+.page::before {
+  content: "";
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index: 5;
+  pointer-events: none;
+  transition: all .3s;
+  opacity: 0;
+}
+
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+.signs__slogan {
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 12px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .signs__slogan {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .signs__slogan {
+    font-size: 12px;
+    line-height: 14px;
+    max-width: 160px;
+  }
+}

@@ -1,0 +1,4 @@
+.header__logo_pointer_events {
+  pointer-events: none;
+  cursor: default;
+}

@@ -1,0 +1,26 @@
+.signs__number_big {
+  font-weight: 600;
+  font-size: 200px;
+  line-height: 289px;
+  left: 0;
+  top: 45px;
+  z-index: -1;
+}
+
+
+@media screen and (max-width: 1024px){
+  .signs__number_big {
+    font-size: 160px;
+    line-height: 231px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .signs__number_big {
+    font-size: 80px;
+    line-height: 116px;
+    margin-left: 20px;
+    top: -25px;
+  }
+}

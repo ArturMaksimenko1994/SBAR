@@ -1,0 +1,15 @@
+.decision {
+  max-width: 1536px;
+  position: relative;
+  margin: 0 auto;
+}
+
+
+@media screen and (max-width: 540px) {
+  .decision {
+    display: none;
+  }
+  .decision_mobile {
+    display: block;
+  }
+}

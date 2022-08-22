@@ -1,0 +1,19 @@
+.decision__description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+
+@media screen and (max-width:960px) {
+  .decision__description {
+    margin-top: 30px;
+  }
+}
+
+
+@media screen and (max-width:540px) {
+  .decision__description {
+    flex-direction: column;
+  }
+}

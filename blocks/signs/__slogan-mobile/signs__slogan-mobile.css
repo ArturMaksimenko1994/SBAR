@@ -1,0 +1,13 @@
+.signs__slogan-mobile {
+  display: none;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+
+}
+
+@media screen and (max-width: 540px) {
+  .signs__slogan-mobile {
+    display: block;
+  }
+}

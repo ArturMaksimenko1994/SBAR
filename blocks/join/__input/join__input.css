@@ -1,0 +1,39 @@
+.join__input {
+  outline: none;
+  padding: 12px 20px 12px 25px;
+  border: 1px solid #828282;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  margin-top: 10px;
+  width: 100%;
+  transition: .5s;
+  z-index: -10;
+  resize: none;
+  font-family: 'Open Sans';
+}
+
+
+.join__input:focus  {
+  border: 1px solid #650675;
+}
+
+.join__input:active  {
+  border: 1px solid #650675;
+}
+
+
+.join__input:not(:placeholder-shown) {
+  border-color:#650675;
+}
+
+
+@media screen and (max-width: 1440px){
+  .join__input {
+    padding: 8px 8px 8px 17px;
+    font-size: 14px;
+  line-height: 28px;
+  }
+}

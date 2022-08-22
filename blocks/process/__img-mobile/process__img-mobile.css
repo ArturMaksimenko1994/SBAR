@@ -1,0 +1,14 @@
+.process__img-mobile {
+  display: none;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 41px;
+  width: 100%;
+}
+
+
+@media screen and (max-width:540px){
+  .process__img-mobile {
+    display: block;
+  }
+}

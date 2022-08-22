@@ -1,0 +1,29 @@
+.decision__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #F5F5F5;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 1440px){
+  .decision__subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .decision__subtitle {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+
+

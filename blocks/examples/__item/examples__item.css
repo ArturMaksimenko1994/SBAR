@@ -1,0 +1,39 @@
+.examples__item {
+  background: #EDEDED;
+  width: 29%;
+  padding: 14px 0;
+  margin-right: 60px;
+  margin-bottom: 110px;
+}
+
+
+.examples__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+
+@media screen and (max-width: 1320px){
+  .examples__item {
+    margin-right: 45px;
+    padding: 10px 0;
+    margin-bottom: 80px;
+  }
+}
+
+
+
+
+@media screen and (max-width: 890px){
+  .examples__item {
+    max-width: 347px;
+    width: 100%;
+    padding: 14px 0;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .examples__item:nth-child(3n)  {
+    margin: inherit;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+}

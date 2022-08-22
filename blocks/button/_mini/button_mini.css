@@ -1,0 +1,19 @@
+.button_mini {
+    padding: 14px 48px;
+}
+
+@media screen and (max-width: 1440px){
+  .button_mini {
+    padding: 8px 33px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .button_mini {
+    padding: 8px 33px;
+  }
+}
+
+
+

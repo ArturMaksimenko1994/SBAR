@@ -1,0 +1,25 @@
+
+.compliance {
+  background: #EBEBEB;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 1440px){
+  .compliance {
+    padding: 20px 96px 20px 96px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .compliance {
+    padding: 16px 66px 16px 66px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .compliance {
+    padding: 16px 20px 16px 20px;
+  }
+}

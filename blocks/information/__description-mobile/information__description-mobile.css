@@ -1,0 +1,13 @@
+.information__description-mobile {
+  display: none;
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 540px){
+  .information__description-mobile {
+    display: block;
+  }
+}

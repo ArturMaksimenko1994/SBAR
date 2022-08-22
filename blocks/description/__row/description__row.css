@@ -1,0 +1,12 @@
+.description__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 540px){
+  .description__row {
+    justify-content: center;
+    flex-direction: column;
+  }
+}

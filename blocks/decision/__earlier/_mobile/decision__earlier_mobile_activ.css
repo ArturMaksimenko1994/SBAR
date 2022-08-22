@@ -1,0 +1,13 @@
+.decision__earlier_mobile_none {
+  display: none;
+}
+
+
+@media screen and (max-width: 860px) {
+  .decision__earlier_mobile_activ {
+    width: 100%;
+    border-right: 0px solid #FFFFFF;
+    padding: 0px 0px 0px 0;
+  }
+}
+

@@ -1,0 +1,25 @@
+.process__items_mini {
+  width: 18px;
+  height: 43px;
+  margin-bottom: 120px;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 1440px){
+  .process__items_mini {
+    margin-bottom: 190px;
+  }
+}
+@media screen and (max-width: 960px){
+  .process__items_mini {
+    margin-bottom: 100px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .process__items_mini {
+    display: none;
+  }
+}

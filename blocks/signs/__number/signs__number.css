@@ -1,0 +1,25 @@
+.signs__number {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 35px;
+  color: #00A0E3;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+
+@media screen and (max-width: 540px) {
+  /* .signs__item:nth-child(2n) .signs__number {
+    left:10px;
+  } */
+  .signs__item:nth-child(3) .signs__number {
+    left:10px;
+  }
+  .signs__item:nth-child(5) .signs__number {
+    left:10px;
+  }
+  .signs__item:nth-child(7) .signs__number {
+    left:10px;
+  }
+}

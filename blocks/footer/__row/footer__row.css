@@ -1,0 +1,18 @@
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1312px;
+  margin: 0 auto;
+  color: #FFFFFF;
+  align-items: center;
+  position: relative;
+}
+
+
+@media screen and (max-width: 540px){
+  .footer__row {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}

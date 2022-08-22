@@ -1,0 +1,27 @@
+.help {
+  padding: 110px 40px;
+}
+
+@media screen and (max-width: 1440px){
+  .help {
+    padding: 60px 96px 60px 96px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .help {
+    padding: 50px 66px 50px 66px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .help {
+    display: none;
+  }
+}
+
+
+
+

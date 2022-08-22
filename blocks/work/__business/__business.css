@@ -1,0 +1,19 @@
+.work__business {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background: url("./../../../images/join/join-fon.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+}
+
+
+
+@media screen and (max-width: 860px){
+  .work__business {
+    width: 100%;
+    padding: 58px 0;
+  }
+}

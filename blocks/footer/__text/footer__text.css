@@ -1,0 +1,40 @@
+.footer__text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 50%;
+  margin: 0;
+  max-width: 450px;
+}
+
+
+@media screen and (max-width: 1024px){
+  .footer__text {
+    font-size: 14px;
+    max-width: 400px;
+  }
+}
+
+
+@media screen and (max-width: 880px){
+  .footer__text {
+    max-width: 270px;
+  }
+}
+
+
+@media screen and (max-width: 640px){
+  .footer__text {
+    font-size: 12px;
+    max-width: 210px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .footer__text {
+    font-size: 10px;
+    max-width: 170px;
+    line-height: 13px;
+  }
+}

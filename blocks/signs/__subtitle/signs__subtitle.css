@@ -1,0 +1,35 @@
+.signs__subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+
+.signs__subtitle::after {
+  display: block;
+  content: "";
+  width: 145px;
+  height: 2px;
+  margin-top: 18px;
+  background: #000000;
+}
+
+
+@media screen and (max-width: 1024px){
+  .signs__subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .signs__subtitle::after {
+    margin-top: 12px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .signs__subtitle {
+    display: none;
+  }
+}

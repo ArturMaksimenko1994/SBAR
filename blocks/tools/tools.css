@@ -1,0 +1,50 @@
+.tools {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0px 0px 150px 0px;
+}
+
+
+@media screen and (max-width: 1440px){
+  .tools {
+    padding: 0px 96px 150px 96px;
+  }
+}
+
+
+@media screen and (max-width: 1024px){
+  .tools {
+    padding: 0px 96px 110px 96px;
+  }
+}
+
+
+@media screen and (max-width: 860px){
+  .tools {
+    padding: 0px 66px 70px 66px;
+  }
+}
+
+
+@media screen and (max-width: 540px){
+  .tools {
+    padding: 0px 21px 50px 21px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
